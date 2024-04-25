@@ -4,10 +4,16 @@
   box-sizing: border-box;
 }
 body {
-    background-color: pink !important;
+    background-color: pink;
     margin: 20px;
     text-align: center;
+    background-image: url("../images/strawberryrain.gif");
   }
+  
+.contactsec {
+  margin: 50px;
+}
+
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
