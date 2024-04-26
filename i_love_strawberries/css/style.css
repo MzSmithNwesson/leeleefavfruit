@@ -41,6 +41,11 @@ body {
   display: none;
 }
 
+.nav {
+  border: 2px solid green;
+  background-color: red;
+}
+
 h1 {
   font-size: 60px;
   color: green;
