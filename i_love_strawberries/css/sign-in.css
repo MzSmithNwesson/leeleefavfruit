@@ -33,12 +33,22 @@ body {
     margin: 30px;
     padding: 50px;
     color: black;
+
   }
   @media screen and (max-width: 400px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
+    }
+    .sign-inf {
+      width: 200px;
+      height: 400px;
+    }
+    .subtn {
+      text-align: justify;
+      display: block;
+      text-decoration: underline;
     }
   }
   

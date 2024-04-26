@@ -29,4 +29,7 @@ body {
       display: block;
       text-align: left;
     }
+    .gimg {
+      width: 200px;
+    }
   }
