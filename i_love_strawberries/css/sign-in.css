@@ -35,7 +35,7 @@ body {
     color: black;
 
   }
-  @media screen and (max-width:375px) {
+  @media screen and (max-width: 575px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;

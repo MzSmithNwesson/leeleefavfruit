@@ -10,29 +10,26 @@ body {
     text-align: center;
   }
 
-  .farm1 {
+  .farm2 {
     width: 900px;
 
   }
 
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 575px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
 
-    .strawgif {
-      width: 200px;
-    }
     .strawpic-1 {
       width: 200px;
     }
 
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 575px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -51,10 +48,27 @@ body {
   display: none;
     }
 
+    .farm2 {
+      width: 250px;
+    }
   }
   @media screen and (min-width: 375px) {
     .farm1 {
       display: none;
-      width: 50px;
+      width: 250px;
     }
+  }
+
+  @media screen and (max-width: 767px) {
+    .strawgif {
+      display: none;
+      }
+
+      .farm1 {
+        display: inline;
+      }
+
+      .farm2 {
+        display: none;
+      }
   }
