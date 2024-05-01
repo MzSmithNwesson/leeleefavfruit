@@ -16,7 +16,7 @@
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
+  position: center;
   top: 40%;
   width: auto;
   padding: 16px;
@@ -27,6 +27,7 @@
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+
 }
 
 
@@ -79,7 +80,7 @@
 .demo:hover {
   opacity: 1;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -87,7 +88,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;

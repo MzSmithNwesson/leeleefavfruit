@@ -9,6 +9,16 @@ body {
     margin: 20px;
     text-align: center;
   }
+
+  .mypic {
+    width: 350px;
+  border-radius: 200px;
+  }
+
+  .gimg {
+    width: 400px;
+  }
+  
   @media screen and (max-width: 400px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
