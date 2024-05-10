@@ -43,7 +43,7 @@ body {
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 767px) {
     .farm1 {
   display: none;
     }
@@ -53,7 +53,7 @@ body {
     }
   }
   @media screen and (min-width: 375px) {
-    .farm1 {
+    .farm2 {
       display: none;
       width: 250px;
     }
