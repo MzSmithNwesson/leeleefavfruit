@@ -10,7 +10,8 @@ body {
     text-align: center;
   }
 
-  .farm2 {
+  .farm1 {
+
     width: 900px;
 
   }
@@ -44,18 +45,22 @@ body {
   }
 
   @media screen and (min-width: 767px) {
-    .farm1 {
+    .farm2 {
   display: none;
     }
 
-    .farm2 {
-      width: 250px;
+    .farm1 {
+      width: 900px;
     }
   }
+  
   @media screen and (min-width: 375px) {
     .farm2 {
+      width: 200px;
+    }
+
+    .farm1 {
       display: none;
-      width: 250px;
     }
   }
 
