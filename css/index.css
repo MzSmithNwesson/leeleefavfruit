@@ -12,7 +12,7 @@ body {
 
   .farm1 {
 
-    width: 900px;
+    width: 875px;
 
   }
 
@@ -43,37 +43,19 @@ body {
       text-align: left;
     }
   }
-
-  @media screen and (min-width: 767px) {
-    .farm2 {
-  display: none;
-    }
-
-    .farm1 {
-      width: 900px;
-    }
+  .farm2 {
+    display: none;
   }
+@media screen and (max-width: 768px) {
+  .farm1 {
+    display: none;
+  }
+  .farm2 {
+    display: block;
+  }
+
+  .strawgif {
+    display: none;
+  }
+}
   
-  @media screen and (min-width: 375px) {
-    .farm2 {
-      width: 200px;
-    }
-
-    .farm1 {
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: 767px) {
-    .strawgif {
-      display: none;
-      }
-
-      .farm1 {
-        display: inline;
-      }
-
-      .farm2 {
-        display: none;
-      }
-  }
