@@ -113,10 +113,11 @@
       float: none;
       display: block;
       text-align: left;
+      -align: center;
     }
   }
-  -align: center;
-}
+
+
 .navbar-nav {
   list-style-type: none;
   display: flex;

@@ -53,9 +53,7 @@ body {
       display: block;
       text-decoration: underline;
     }
-    main {
-  flex-directi;
-    }
+
   }
   
   @media screen and (max-width: 375px) {
